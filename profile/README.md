@@ -1,4 +1,4 @@
-# Chorus
+# CHORUS-TRE
 
 ## About
 
@@ -6,7 +6,7 @@
 
 CHORUS-TRE is revolutionizing biomedical research by addressing critical pain points such as data fragmentation, lack of collaboration, and compliance challenges. This innovative platform facilitates secure data sharing and collaboration, ensuring adherence to an increasingly stringent regulatory framework. At its core, the TRE provides secure access to researchers through rigorous vetting, employs privacy protection measures like risk-based anonymization, synthetic data generation, remote query execution with differential privacy, and enforces controlled usage with strict data handling protocols. This environment is designed for scalability, capable of processing next-gen sequencing, imaging data, and electronic health records efficiently.
 
-Chorus emphasizes privacy-enhancing technologies, security, user-centric design, and community engagement. These core principles ensure that the platform not only protects user data but also aligns with user needs and fosters trust within the research community.
+CHORUS-TRE emphasizes privacy-enhancing technologies, security, user-centric design, and community engagement. These core principles ensure that the platform not only protects user data but also aligns with user needs and fosters trust within the research community.
 
 The impact of the TRE is profound, and will be offering a foundation for precision medicine through AI, enabling advanced multimodal data studies, attracting external funding, and fostering innovation through collaborations with startups. The SCRUM approach ensures iterative development, prioritizing user feedback for continuous improvement. This project, supported by the Directorate for Innovation and Clinical Research, the IT Department, the Lundin Family Brain Tumor Research Center, and the Department of Clinical Neuroscience, represents a significant leap forward in creating a trusted, collaborative research ecosystem.
 
