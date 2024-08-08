@@ -1,6 +1,4 @@
-# <REPOSITORY>
-
-Please edit the repository name in the LICENSE file and in the line above.
+# CHORUS-TRE
 
 ## License and Usage Restrictions
 
