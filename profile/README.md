@@ -12,23 +12,33 @@ The impact of the TRE is profound, and will be offering a foundation for precisi
 
 
 
-## Status
-CHORUS-TRE is a work in progress and is actively being developed.
+
+## V2
+
+### Status
+CHORUS-TRE V2 is a work in progress and is actively being developed.
+
+### Install
+
+Follow this [guide](https://github.com/CHORUS-TRE/.github/blob/master/profile/INSTALL.md) to deploy a CHORUS-TRE instance.
 
 ## V1
 
-CHORUS-TRE is based on the Human Intracerebral EEG Platform (HIP), an open-source platform designed for collecting, managing, analyzing, and sharing data at an international level. Its primary mission is to promote the development of large-scale research projects by facilitating international collaborations.
+CHORUS-TRE V1 is based on the Human Intracerebral EEG Platform (HIP), an open-source platform designed for collecting, managing, analyzing, and sharing data at an international level. Its primary mission is to promote the development of large-scale research projects by facilitating international collaborations.
 
 This project was supported by the EBRAINS research infrastructure, funded by the European Union’s Horizon 2020 Framework Programme for Research and Innovation under the Specific Grant Agreement No. 945539 (Human Brain Project SGA3). [https://www.ebrains.eu/tools/human-intracerebral-eeg-platform](https://www.ebrains.eu/tools/human-intracerebral-eeg-platform)
 
-## Install
+### Install
 How-to [https://github.com/HIP-infrastructure/#install](https://github.com/HIP-infrastructure/#install)
 
-## Documentation & Architecture
+### Documentation & Architecture
 - User documentation [https://hip-infrastructure.github.io](https://hip-infrastructure.github.io/)
 - Architecture [https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md](https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md)
 - C4 architecture [https://github.com/HIP-infrastructure/hip-doc?tab=readme-ov-file](https://github.com/HIP-infrastructure/hip-doc?tab=readme-ov-file)
 
+### Demo
+
+Check out our [demo instance](#) to find out the possibilities of the CHORUS-TRE V1 platform.
 
 ## License and Usage Restrictions
 
