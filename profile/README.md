@@ -20,8 +20,8 @@ CHORUS-TRE V2 is a work in progress and is actively being developed.
 Follow this [guide](https://github.com/CHORUS-TRE/.github/blob/master/profile/INSTALL.md) to deploy a CHORUS-TRE V2 instance.
 
 ### Documentation & Architecture
-- User documentation [https://docs.chorus-tre.ch](https://docs.chorus-tre.ch)
-- Architecture [[https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md](https://github.com/CHORUS-TRE/architecture/blob/master/README.md)](https://github.com/CHORUS-TRE/architecture/blob/master/README.md)
+- User documentation: [https://docs.chorus-tre.ch](https://docs.chorus-tre.ch)
+- Architecture: [https://github.com/CHORUS-TRE/architecture/blob/master/README.md](https://github.com/CHORUS-TRE/architecture/blob/master/README.md)
 
 ### Demo
 
@@ -40,9 +40,9 @@ Follow this [guide](https://github.com/HIP-infrastructure/#install) to install a
 Follow this [guide](https://github.com/CHORUS-TRE/v1-dockerized/blob/master/README.md) to deploy a fully dockerized (DinD) CHORUS-TRE V1 instance.
 
 ### Documentation & Architecture
-- User documentation [https://hip-infrastructure.github.io](https://hip-infrastructure.github.io/)
-- Architecture [https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md](https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md)
-- C4 architecture [https://github.com/HIP-infrastructure/hip-doc?tab=readme-ov-file](https://github.com/HIP-infrastructure/hip-doc?tab=readme-ov-file)
+- User documentation: [https://hip-infrastructure.github.io](https://hip-infrastructure.github.io/)
+- Architecture: [https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md](https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md)
+- C4 architecture: [https://github.com/HIP-infrastructure/hip-doc?tab=readme-ov-file](https://github.com/HIP-infrastructure/hip-doc?tab=readme-ov-file)
 
 ### Demo
 
