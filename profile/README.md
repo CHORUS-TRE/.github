@@ -19,6 +19,14 @@ CHORUS-TRE V2 is a work in progress and is actively being developed.
 
 Follow this [guide](https://github.com/CHORUS-TRE/.github/blob/master/profile/INSTALL.md) to deploy a CHORUS-TRE V2 instance.
 
+### Documentation & Architecture
+- User documentation [https://docs.chorus-tre.ch](https://docs.chorus-tre.ch)
+- Architecture [[https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md](https://github.com/CHORUS-TRE/architecture/blob/master/README.md)](https://github.com/CHORUS-TRE/architecture/blob/master/README.md)
+
+### Demo
+
+Check out our [demo instance](#) to find out the possibilities of the CHORUS-TRE V2 platform.
+
 ## V1
 
 CHORUS-TRE V1 is based on the Human Intracerebral EEG Platform (HIP), an open-source platform designed for collecting, managing, analyzing, and sharing data at an international level. Its primary mission is to promote the development of large-scale research projects by facilitating international collaborations.
