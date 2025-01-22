@@ -9,8 +9,6 @@
 * [Installation](#installation)
     * [Bootstrap](#bootstrap)
     * [Secrets](#secrets)
-        * [Creation](#creation)
-        * [Sealing and applying](#sealing-and-applying)
     * [Deploy](#deploy)
 
 <!-- vim-markdown-toc -->
@@ -24,7 +22,6 @@
 | [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl)  | Kubernetes command-line tool kubectl is required to run commands against Kubernetes clusters                                                                                                                    |
 | [helm 3](https://github.com/helm/helm#install)                     | Helm Charts are used to package Kubernetes resources for each component |
 | [argocd cli](https://argo-cd.readthedocs.io/en/stable/cli_installation)                     | ArgoCD CLI is required to manage the CHORUS-TRE ArgoCD instance |
-| [kubeseal](https://github.com/bitnami-labs/sealed-secrets?tab=readme-ov-file#kubeseal)                        | Kubeseal is required to seal secrets in the CHORUS K8s cluster |
 | [argo cli](https://argo-workflows.readthedocs.io/en/stable/walk-through/argo-cli/)                            | Argo-Workflows CLI is required to manage CI jobs |
 
 ### Infrastructure
@@ -63,70 +60,5 @@ This will bootstrap the installation of ArgoCD as well as the OCI registry to th
 6. Fork the [environments-template](https://github.com/CHORUS-TRE/environments-template) repository to your GitHub organization.
    
 ### Secrets
-Several secrets need to be created, sealed and applied to the cluster.
-
-#### Creation
-- To secure the OCI Registry, generate a new `htpasswd` and input it in the following secret.
-
-   `chorus-build-registry-htpasswd.secret.yaml`:
-   ```yaml
-   apiVersion: v1
-   data:
-      htpasswd: <REGISTRY HTPASSWD>
-   kind: Secret
-   metadata:
-      name: registry-htpasswd
-      namespace: registry
-   ```
-- To let the chorus ApplicationSet access the environments-template repository fork, you'll need to generate a GitHub fine-grained token, and create the following secret.
-  
-   `chorus-build-argo-cd-github-environments-template.secret.yaml`:
-   ```yaml
-   apiVersion: v1
-   kind: Secret
-   metadata:
-      name: argo-cd-github-environments-template
-      namespace: argocd
-      labels:
-         argocd.argoproj.io/secret-type: repository
-   stringData:
-      type: git
-      name: github-environments-templates
-      url: https://github.com/<YOUR-ORG>/environments-template
-      password: <FINE-GRAINED TOKEN>
-      username: none
-   ```
-- To let the chorus ApplicationSet access the OCI registry deployed during the bootstrapping step, create a secret that contains the OCI registry `htpasswd` username and password defined above. Use the domain name specified during the bootstrapping step above.
-  
-   `chorus-build-argo-cd-registry-htpasswd.secret.yaml`:
-   ```yaml
-   apiVersion: v1
-   kind: Secret
-   metadata:
-      name: argo-cd-registry-htpasswd
-      namespace: argocd
-      labels:
-         argocd.argoproj.io/secret-type: repository
-   stringData:
-      enableOCI: "true"
-      name: chorus-build-registry
-      password: "<REGISTRY PASSWORD>"
-      type: helm
-      url: registry.build.<DOMAIN NAME>
-      username: "<REGISTRY USERNAME>"
-   ```
-
-#### Sealing and applying
-To seal the secrets created in the previous step and apply them to your cluster, follow these steps for each secret:
-
-```bash
-kubeseal -f <name>.secret.yaml -w <name>.sealed.yaml
-kubectl apply -f <name>.sealed.yaml
-```
-It is safe to delete these secrets afterwards, however don't forget to back them up somewhere secure.
-```bash
-rm <name>.secret.yaml
-rm <name>.sealed.yaml
-```
 
 ### Deploy
