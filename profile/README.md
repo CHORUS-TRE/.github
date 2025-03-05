@@ -44,10 +44,6 @@ Follow this [guide](https://github.com/CHORUS-TRE/v1-dockerized/blob/master/READ
 - Architecture: [https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md](https://github.com/HIP-infrastructure/hip-doc/blob/master/Architecture.md)
 - C4 architecture: [https://github.com/HIP-infrastructure/hip-doc?tab=readme-ov-file](https://github.com/HIP-infrastructure/hip-doc?tab=readme-ov-file)
 
-### Demo
-
-Check out our [demo instance](#) to find out the possibilities of the CHORUS-TRE V1 platform.
-
 ## License and Usage Restrictions
 
 Any use of the software for purposes other than academic research, including for commercial purposes, shall be requested in advance from [CHUV](mailto:pactt.legal@chuv.ch).
