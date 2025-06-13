@@ -17,7 +17,7 @@ CHORUS-TRE V2 is a work in progress and is actively being developed.
 
 ### Install
 
-Follow this [guide](https://github.com/CHORUS-TRE/.github/blob/master/profile/INSTALL.md) to deploy a CHORUS-TRE V2 instance.
+Follow this [guide](https://github.com/CHORUS-TRE/chorus-install/blob/master/README.md) to deploy a CHORUS-TRE V2 instance.
 
 ### Documentation & Architecture
 - User documentation: [https://docs.chorus-tre.ch](https://docs.chorus-tre.ch)
