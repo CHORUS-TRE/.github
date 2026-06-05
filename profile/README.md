@@ -16,15 +16,13 @@ The impact of the TRE is profound, and will be offering a foundation for precisi
 CHORUS-TRE V2 is a work in progress and is actively being developed.
 
 ### Install
-
-Follow this [guide](https://github.com/CHORUS-TRE/chorus-install/blob/master/README.md) to deploy a CHORUS-TRE V2 instance.
+If you want to install CHORUS, send us an email at [chorus-tre@chuv.ch](mailto:chorus-tre@chuv.ch).
 
 ### Documentation & Architecture
 - User documentation: [https://docs.chorus-tre.ch](https://docs.chorus-tre.ch)
 - Architecture: [https://github.com/CHORUS-TRE/architecture/blob/master/README.md](https://github.com/CHORUS-TRE/architecture/blob/master/README.md)
 
 ### Demo
-
 Check out our [demo instance](#) to find out the possibilities of the CHORUS-TRE V2 platform.
 
 ## V1
