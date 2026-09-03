@@ -20,10 +20,9 @@ If you want to install CHORUS, send us an email at [chorus-tre@chuv.ch](mailto:c
 
 ### Documentation & Architecture
 - User documentation: [https://docs.chorus-tre.ch](https://docs.chorus-tre.ch)
-- Architecture: [https://github.com/CHORUS-TRE/architecture/blob/master/README.md](https://github.com/CHORUS-TRE/architecture/blob/master/README.md)
 
 ### Demo
-Check out our [demo instance](#) to find out the possibilities of the CHORUS-TRE V2 platform.
+You can request a demo to find out the possibilities of the CHORUS-TRE V2 platform. Send us an email at [chorus-tre@chuv.ch](mailto:chorus-tre@chuv.ch).
 
 ## V1
 
@@ -33,9 +32,6 @@ This project was supported by the EBRAINS research infrastructure, funded by the
 
 ### Install partially dockerized version
 Follow this [guide](https://github.com/HIP-infrastructure/#install) to install a CHORUS-TRE V1 instance the regular way.
-
-### Install dockerized version (DinD)
-Follow this [guide](https://github.com/CHORUS-TRE/v1-dockerized/blob/master/README.md) to deploy a fully dockerized (DinD) CHORUS-TRE V1 instance.
 
 ### Documentation & Architecture
 - User documentation: [https://hip-infrastructure.github.io](https://hip-infrastructure.github.io/)
