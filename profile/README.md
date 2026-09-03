@@ -13,12 +13,12 @@ The impact of the TRE is profound, and will be offering a foundation for precisi
 ## V2
 
 ### Status
-CHORUS-TRE V2 is a work in progress and is actively being developed.
+CHORUS-TRE V2 is actively being developed.
 
 ### Install
 If you want to install CHORUS, send us an email at [chorus-tre@chuv.ch](mailto:chorus-tre@chuv.ch).
 
-### Documentation & Architecture
+### User documentation
 - User documentation: [https://docs.chorus-tre.ch](https://docs.chorus-tre.ch)
 
 ### Demo
