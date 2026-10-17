@@ -25,7 +25,7 @@ Website: [chorus-tre.ch](https://chorus-tre.ch)
 - Role-based access control and audit trail
 - Single sign-on with your institution's identity provider
 
-CHORUS installs on any Kubernetes cluster: in your data centre, in a private or public cloud, or on an isolated site with no internet access.
+CHORUS installs on any Kubernetes cluster with Cilium as the network layer: in your data centre, in a private or public cloud, or on an isolated site with no internet access. It also needs S3-compatible object storage and a domain name you control. [See the requirements](https://chorus-tre.ch/pricing-deployment/)
 
 ## Compliance
 
@@ -33,7 +33,7 @@ CHORUS is designed around the Five Safes, and designed to align with the Europea
 
 ## Editions
 
-- *Community Edition* — the complete platform, free for academic and non-commercial research, self-hosted. Available now.
+- *Community Edition* — the complete platform, free for academic non-commercial research, self-hosted. Available now.
 - *Pro Edition* — Pro features on top of the Community Edition, self-hosted. In development.
 - *Managed* — hosted and operated by the CHORUS team. In development.
 
@@ -41,7 +41,7 @@ CHORUS is designed around the Five Safes, and designed to align with the Europea
 
 ## Get started
 
-- [Get the Community Edition](https://chorus-tre.ch/contact-us/?topic=community-edition), free for academic and non-commercial research
+- [Get the Community Edition](https://chorus-tre.ch/contact-us/?topic=community-edition), free for academic non-commercial research
 - [Documentation](https://docs.chorus-tre.ch/) for researchers, data managers and platform administrators
 - [Join the community](https://chorus-tre.ch/community/) to get the Community Edition and its code, contribute to CHORUS and give feedback to the team
 - [Request a demo](https://chorus-tre.ch/contact-us/?topic=demo)
@@ -51,4 +51,4 @@ CHORUS is designed around the Five Safes, and designed to align with the Europea
 
 CHORUS is licensed for academic non-commercial research only, under the terms of the [license agreement](https://github.com/CHORUS-TRE/.github/blob/master/LICENSE).
 
-Any use of the software for purposes other than academic research, including for commercial purposes, shall be requested in advance from [CHUV](https://chorus-tre.ch/contact-us/).
+Any use of the software for purposes other than academic research, including for commercial purposes, shall be requested in advance from [CHUV](https://chorus-tre.ch/contact-us/?topic=licensing).
